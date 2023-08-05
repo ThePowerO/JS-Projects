@@ -25,3 +25,4 @@ const GetNumberOfLines = () => {
         } else {
             return numberOfLines;
         }
+    }
