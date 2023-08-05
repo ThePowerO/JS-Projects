@@ -10,3 +10,4 @@ const deposit = () => {
             console.log("Invalid deposit amount, try again")
         } else {
             return numberDepositAmout;
+        }
