@@ -19,3 +19,5 @@ const GetNumberOfLines = () => {
     while (true) {
         const lines = prompt("Enter number of lines to bet (1-3): ");
         const numberOfLines = parseFloat(lines);
+
+        if (isNaN(numberOfLines) || numberOfLines <= 0 || numberOfLines > 3) {
