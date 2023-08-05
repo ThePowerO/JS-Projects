@@ -28,3 +28,5 @@ const GetNumberOfLines = () => {
     }
 
 };
+
+let DepositAmout = deposit();
