@@ -17,3 +17,4 @@ const deposit = () => {
 
 const GetNumberOfLines = () => {
     while (true) {
+        const lines = prompt("Enter number of lines to bet (1-3): ");
