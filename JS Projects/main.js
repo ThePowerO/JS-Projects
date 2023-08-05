@@ -31,3 +31,5 @@ const GetNumberOfLines = () => {
 
 let DepositAmout = deposit();
 console.log(DepositAmout)
+
+const lines = GetNumberOfLines();
