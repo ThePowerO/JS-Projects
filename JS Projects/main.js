@@ -26,3 +26,5 @@ const GetNumberOfLines = () => {
             return numberOfLines;
         }
     }
+
+};
