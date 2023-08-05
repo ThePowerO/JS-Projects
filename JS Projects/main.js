@@ -24,3 +24,4 @@ const GetNumberOfLines = () => {
             console.log("Invalid deposit amount, try again")
         } else {
             return numberOfLines;
+        }
