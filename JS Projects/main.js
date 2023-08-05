@@ -14,3 +14,5 @@ const deposit = () => {
     }
 
 };
+
+const GetNumberOfLines = () => {
