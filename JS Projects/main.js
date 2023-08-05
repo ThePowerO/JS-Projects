@@ -30,3 +30,4 @@ const GetNumberOfLines = () => {
 };
 
 let DepositAmout = deposit();
+console.log(DepositAmout)
