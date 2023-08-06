@@ -18,3 +18,4 @@ const saveTodo = (text) => {
     todo.appendChild(todoTitle);
 
     const doneBtn = document.createElement("button")
+    doneBtn.classList.add("finish-todo")
