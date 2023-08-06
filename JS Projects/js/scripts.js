@@ -36,3 +36,4 @@ const saveTodo = (text) => {
 
     todoInput.value = "";
     todoInput.focus();
+};
