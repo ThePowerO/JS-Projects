@@ -14,3 +14,4 @@ const saveTodo = (text) => {
     todo.classList.add('todo')
     const todoTitle = document.createElement("h3")
     todoTitle.innerText = text;
+    todo.appendChild(todoTitle);
