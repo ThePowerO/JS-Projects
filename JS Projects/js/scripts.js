@@ -9,3 +9,4 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn")
 let OldInputValue;
 
 // Functions
+const saveTodo = (text) => {
