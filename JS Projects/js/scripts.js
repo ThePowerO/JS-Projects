@@ -12,6 +12,9 @@ let OldInputValue;
 const saveTodo = (text) => {
     const todo = document.createElement("div")
     todo.classList.add('todo')
+    
     const todoTitle = document.createElement("h3")
     todoTitle.innerText = text;
     todo.appendChild(todoTitle);
+
+    const doneBtn = document.createElement("button")
