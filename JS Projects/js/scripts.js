@@ -31,3 +31,5 @@ const saveTodo = (text) => {
     removeBtn.classList.add("remove-todo")
     removeBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>'
     todo.appendChild(removeBtn);
+
+    todoList.appendChild(todo);
