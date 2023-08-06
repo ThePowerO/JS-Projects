@@ -28,3 +28,4 @@ const saveTodo = (text) => {
     todo.appendChild(editBtn);
 
     const removeBtn = document.createElement("button")
+    removeBtn.classList.add("remove-todo")
