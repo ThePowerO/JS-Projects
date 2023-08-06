@@ -25,3 +25,4 @@ const saveTodo = (text) => {
     const editBtn = document.createElement("button")
     editBtn.classList.add("edit-todo")
     editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>'
+    todo.appendChild(editBtn);
