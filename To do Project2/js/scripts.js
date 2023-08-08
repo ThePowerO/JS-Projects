@@ -42,6 +42,9 @@ const hideandshow = () => {
     todoList.classList.toggle("hide")
 }
 
+const updateTodo = (text) => {
+
+
 // Events
 todoForm.addEventListener("submit", (e) => {
     e.preventDefault();
