@@ -36,6 +36,7 @@ const saveTodo = (text) => {
     todoInput.focus();
 };
 
+const hideandshow = () => {
 
 
 // Events
