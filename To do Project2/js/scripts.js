@@ -55,6 +55,7 @@ const updateTodo = (text) => {
             todoTitle.innerText = text;
         }
     });
+};
 
 
 
