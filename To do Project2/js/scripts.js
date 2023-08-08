@@ -40,7 +40,7 @@ const hideandshow = () => {
     editForm.classList.toggle("hide")
     todoForm.classList.toggle("hide")
     todoList.classList.toggle("hide")
-
+}
 
 // Events
 todoForm.addEventListener("submit", (e) => {
