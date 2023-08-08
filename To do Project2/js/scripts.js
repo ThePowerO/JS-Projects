@@ -72,6 +72,8 @@ document.addEventListener("click", (e) => {
     const parentEl = targetEl.closest("div");
     let todoTitle;
 
+    if (parentEl && parentEl.querySelector("h3")) {
+
 
     if (targetEl.classList.contains("finish-todo")) {
         parentEl.classList.toggle("done")
