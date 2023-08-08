@@ -37,6 +37,7 @@ const saveTodo = (text) => {
 };
 
 const hideandshow = () => {
+    editForm.classList.toggle("hide")
 
 
 // Events
