@@ -38,6 +38,7 @@ const saveTodo = (text) => {
 
 const hideandshow = () => {
     editForm.classList.toggle("hide")
+    todoForm.classList.toggle("hide")
 
 
 // Events
