@@ -52,6 +52,7 @@ const updateTodo = (text) => {
         console.log(todoTitle, text);
 
         if (todoTitle.innerText === OldInputValue) {
+            todoTitle.innerText = text;
 
 
 
