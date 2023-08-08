@@ -43,6 +43,7 @@ const hideandshow = () => {
 }
 
 const updateTodo = (text) => {
+    const todos = document.querySelectorAll(".todo");
 
 
 // Events
