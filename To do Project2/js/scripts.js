@@ -46,6 +46,7 @@ const updateTodo = (text) => {
     const todos = document.querySelectorAll(".todo");
     todos.forEach((todo) => {
         let todoTitle = todo.querySelector("h3")
+        console.log(todoTitle, text);
 
 
 // Events
