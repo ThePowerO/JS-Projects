@@ -89,5 +89,5 @@ document.addEventListener("click", (e) => {
 
         editInput.value = todoTitle;
         OldInputValue = todoTitle;
-
+    }
 });
