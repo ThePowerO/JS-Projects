@@ -87,4 +87,6 @@ document.addEventListener("click", (e) => {
     if (targetEl.classList.contains("edit-todo")) {
         hideandshow()
 
+        editInput.value = todoTitle;
+
 });
