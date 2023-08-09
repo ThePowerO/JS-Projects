@@ -104,3 +104,4 @@ editForm.addEventListener("click", (e) => {
     e.preventDefault();
     const editInputValue = editInput.value
     if (editInputValue) {
+        updateTodo(editInputValue)
