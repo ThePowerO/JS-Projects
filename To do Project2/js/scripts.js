@@ -100,3 +100,5 @@ cancelEditBtn.addEventListener("click", (e) => {
 });
 
 editForm.addEventListener("click", (e) => {
+
+    e.preventDefault();
