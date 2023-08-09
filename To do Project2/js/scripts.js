@@ -96,3 +96,5 @@ cancelEditBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
     hideandshow();
+
+});
