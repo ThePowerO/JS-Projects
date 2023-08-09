@@ -106,3 +106,5 @@ editForm.addEventListener("click", (e) => {
     if (editInputValue) {
         updateTodo(editInputValue)
     }
+
+    hideandshow()
