@@ -98,3 +98,5 @@ cancelEditBtn.addEventListener("click", (e) => {
     hideandshow();
 
 });
+
+editForm.addEventListener("click", (e) => {
