@@ -93,3 +93,4 @@ document.addEventListener("click", (e) => {
 });
 
 cancelEditBtn.addEventListener("click", (e) => {
+    e.preventDefault();
