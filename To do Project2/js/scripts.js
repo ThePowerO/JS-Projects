@@ -105,3 +105,4 @@ editForm.addEventListener("click", (e) => {
     const editInputValue = editInput.value
     if (editInputValue) {
         updateTodo(editInputValue)
+    }
