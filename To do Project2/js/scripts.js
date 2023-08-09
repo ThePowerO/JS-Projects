@@ -91,3 +91,5 @@ document.addEventListener("click", (e) => {
         OldInputValue = todoTitle;
     }
 });
+
+cancelEditBtn.addEventListener("click", (e) => {
