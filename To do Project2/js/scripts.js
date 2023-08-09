@@ -76,7 +76,6 @@ document.addEventListener("click", (e) => {
         todoTitle = parentEl.querySelector("h3").innerText;
     }
 
-
     if (targetEl.classList.contains("finish-todo")) {
         parentEl.classList.toggle("done")
     }
@@ -84,4 +83,7 @@ document.addEventListener("click", (e) => {
     if (targetEl.classList.contains("remove-todo")) {
         parentEl.remove()
     }
+
+    if (targetEl.classList.contains("edit-todo")) {
+
 });
