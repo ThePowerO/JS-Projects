@@ -102,3 +102,4 @@ cancelEditBtn.addEventListener("click", (e) => {
 editForm.addEventListener("click", (e) => {
 
     e.preventDefault();
+    const editInputValue = editInput.value
