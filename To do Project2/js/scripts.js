@@ -88,5 +88,6 @@ document.addEventListener("click", (e) => {
         hideandshow()
 
         editInput.value = todoTitle;
+        OldInputValue = todoTitle;
 
 });
